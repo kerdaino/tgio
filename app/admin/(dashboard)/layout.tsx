@@ -56,6 +56,9 @@ export default async function AdminDashboardLayout({
   <Link href="/admin/donation-submissions" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
   Donation Submissions
 </Link>
+<Link href="/admin/gallery" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+  Gallery
+</Link>
 </nav>
         </aside>
 

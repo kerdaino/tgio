@@ -38,3 +38,16 @@ export type DonationSubmissionRow = {
   status: string
   created_at: string
 }
+
+export type GalleryItemRow = {
+  id: string
+  title: string | null
+  alt: string
+  category: string
+  media_type: "image" | "video"
+  file_url: string
+  thumbnail_url: string | null
+  is_published: boolean
+  sort_order: number
+  created_at: string
+}
