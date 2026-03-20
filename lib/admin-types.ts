@@ -63,3 +63,15 @@ export type TestimonyRow = {
   is_published: boolean
   created_at: string
 }
+
+export type ContactMessageRow = {
+  id: string
+  full_name: string
+  email: string
+  phone: string | null
+  subject: string
+  message: string
+  allow_follow_up: boolean
+  status: string
+  created_at: string
+}

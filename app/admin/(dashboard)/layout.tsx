@@ -62,6 +62,9 @@ export default async function AdminDashboardLayout({
 <Link href="/admin/testimonies" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
   Testimonies
 </Link>
+<Link href="/admin/contact-messages" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+  Contact Messages
+</Link>
 </nav>
         </aside>
 
