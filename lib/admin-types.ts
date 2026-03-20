@@ -24,3 +24,17 @@ export type PrayerTeamApplicationRow = {
   status: string
   created_at: string
 }
+
+export type DonationSubmissionRow = {
+  id: string
+  full_name: string
+  email: string
+  phone: string | null
+  currency: string
+  amount: number
+  message: string | null
+  payment_reference: string
+  proof_note: string | null
+  status: string
+  created_at: string
+}

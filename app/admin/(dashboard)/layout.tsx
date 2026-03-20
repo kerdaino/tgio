@@ -40,17 +40,23 @@ export default async function AdminDashboardLayout({
 
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[240px_1fr] lg:px-8">
         <aside className="rounded-2xl border border-border bg-card p-4">
-          <nav className="space-y-2">
-            <Link href="/admin" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
-              Dashboard
-            </Link>
-            <Link href="/admin/prayer-requests" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
-              Prayer Requests
-            </Link>
-            <Link href="/admin/prayer-team" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
-              Prayer Team
-            </Link>
-          </nav>
+         <nav className="space-y-2">
+  <Link href="/admin" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+    Dashboard
+  </Link>
+  <Link href="/admin/prayer-requests" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+    Prayer Requests
+  </Link>
+  <Link href="/admin/prayer-team" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+    Prayer Team
+  </Link>
+  <Link href="/admin/donations" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+    Donations
+  </Link>
+  <Link href="/admin/donation-submissions" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+  Donation Submissions
+</Link>
+</nav>
         </aside>
 
         <main>{children}</main>
