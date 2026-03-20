@@ -51,3 +51,15 @@ export type GalleryItemRow = {
   sort_order: number
   created_at: string
 }
+
+export type TestimonyRow = {
+  id: string
+  category: string
+  title: string
+  story: string
+  name: string
+  meta: string | null
+  image_url: string | null
+  is_published: boolean
+  created_at: string
+}

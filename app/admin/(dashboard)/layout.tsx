@@ -59,6 +59,9 @@ export default async function AdminDashboardLayout({
 <Link href="/admin/gallery" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
   Gallery
 </Link>
+<Link href="/admin/testimonies" className="block rounded-lg px-3 py-2 text-sm hover:bg-secondary">
+  Testimonies
+</Link>
 </nav>
         </aside>
 
